@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/order.css" />
+
+</head>
+<body>
+    <header >
+        <img src="../img/University_of_Houston_Logo_red-700x666.png" alt="logo" >
+        <h1>Cafeteria at UH Sugar Land</h1>
+    </header>
+    
+    <div class="topnav"> 
+        <a href="biography.html">Biography</a>
+        <a href="index.html">Home</a>
+        <a href="menu.html"class="active">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <h2>Shopping List</h2>
+    <div class="container">
+        
+        <form id="update-form">
+            <div>
+                <label for="item1">Item:</label>
+                <input type="text" id="item1" name="item1" value="1" readonly>
+                <label for="name1">Name:</label>
+                <input type="text" id="name1" name="name1" value="pancake" readonly>
+                <label for="price1">Price:</label>
+                <input type="text" id="price1" name="price1" value="5" readonly>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" name="quantity1" min="0" max="10" value="0">
+            </div>
+            <div>
+                <label for="item2">Item:</label>
+                <input type="text" id="item2" name="item2" value="2" readonly>
+                <label for="name2">Name:</label>
+                <input type="text" id="name2" name="name2" value="Scallion Pancakes" readonly>
+                <label for="price2">Price:</label>
+                <input type="text" id="price2" name="price2" value="6" readonly>
+                <label for="quantity2">Quantity:</label>
+                <input type="number" id="quantity2" name="quantity2" min="0" max="10" value="0">
+            </div>
+            <div>
+                <label for="item3">Item:</label>
+                <input type="text" id="item3" name="item3" value="3" readonly>
+                <label for="name3">Name:</label>
+                <input type="text" id="name3" name="name3" value="coffee" readonly>
+                <label for="price3">Price:</label>
+                <input type="text" id="price3" name="price3" value="3" readonly>
+                <label for="quantity3">Quantity:</label>
+                <input type="number" id="quantity3" name="quantity3" min="0" max="10" value="0">
+            </div>
+            <div>
+                <label for="item4">Item:</label>
+                <input type="text" id="item4" name="item4" value="4" readonly>
+                <label for="name4">Name:</label>
+                <input type="text" id="name4" name="name4" value="Kung Pao Chicken" readonly>
+                <label for="price4">Price:</label>
+                <input type="text" id="price4" name="price4" value="15" readonly>
+                <label for="quantity4">Quantity:</label>
+                <input type="number" id="quantity4" name="quantity4" min="0" max="10" value="0">
+            </div>
+            <div>
+                <label for="item5">Item:</label>
+                <input type="text" id="item5" name="item5" value="5" readonly>
+                <label for="name5">Name:</label>
+                <input type="text" id="name5" name="name5" value="Beef and Kale Stir-Fry" readonly>
+                <label for="price5">Price:</label>
+                <input type="text" id="price5" name="price5" value="15" readonly>
+                <label for="quantity5">Quantity:</label>
+                <input type="number" id="quantity5" name="quantity5" min="0" max="10" value="0">
+            </div>
+            <div>
+                <label for="item6">Item:</label>
+                <input type="text" id="item6" name="item6" value="6" readonly>
+                <label for="name6">Name:</label>
+                <input type="text" id="name6" name="name6" value="Pizza" readonly>
+                <label for="price6">Price:</label>
+                <input type="text" id="price6" name="price6" value="12" readonly>
+                <label for="quantity6">Quantity:</label>
+                <input type="number" id="quantity6" name="quantity6" min="0" max="10" value="0">
+            </div>
+            <div>
+                <label for="item7">Item:</label>
+                <input type="text" id="item7" name="item7" value="7" readonly>
+                <label for="name7">Name:</label>
+                <input type="text" id="name7" name="name7" value="tocos" readonly>
+                <label for="price7">Price:</label>
+                <input type="text" id="price7" name="price7" value="8" readonly>
+                <label for="quantity7">Quantity:</label>
+                <input type="number" id="quantity7" name="quantity7" min="0" max="10" value="0">
+            </div>
+            <div>
+                <label for="item8">Item:</label>
+                <input type="text" id="item8" name="item8" value="8" readonly>
+                <label for="name8">Name:</label>
+                <input type="text" id="name8" name="name8" value="Beef burger" readonly>
+                <label for="price8">Price:</label>
+                <input type="text" id="price8" name="price8" value="8" readonly>
+                <label for="quantity8">Quantity:</label>
+                <input type="number" id="quantity8" name="quantity8" min="0" max="10" value="0">
+            </div>
+            <div>
+                <label for="item9">Item:</label>
+                <input type="text" id="item9" name="item9" value="9" readonly>
+                <label for="name9">Name:</label>
+                <input type="text" id="name9" name="name9" value="vegetable salads" readonly>
+                <label for="price9">Price:</label>
+                <input type="text" id="price9" name="price9" value="12" readonly>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity9" name="quantity" min="0" max="10" value="0">
+            </div>
+            <div>
+                <input type="submit" class="update" value="submit the order">
+            </div>
+        </form>
+        
+    </div>
+    <div id="total-cost"></div>
+     
+    <script src="../JS/order.js"></script>
+
+
+</html>

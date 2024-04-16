@@ -69,7 +69,7 @@ if (dish === "breakfast") { // display the breakfast menu
     <h2>Dinner Menu</h2>
     <div class="image-row">
         <div>
-            <img src="../img/tocos.jpg" alt="tocos" width="100%">
+            <img src="../img/tocos.jpg" alt="Tacos" width="100%">
             <p>tocos</p>
         </div>
         <div>
@@ -77,7 +77,7 @@ if (dish === "breakfast") { // display the breakfast menu
             <p>Beef burger</p>
         </div>
         <div>
-            <img src="../img/salads.jpg" alt="vegetable salads" width="100%">
+            <img src="../img/salads.jpg" alt="Vegetable salads" width="100%">
             <p>vegetable salads</p>
         </div>
     </div>
